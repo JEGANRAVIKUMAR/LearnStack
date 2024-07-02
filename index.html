@@ -3,68 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAY-1</title>
+    <title>Day-2</title>
+    <link rel="stylesheet" href="./style.css">
     <style>
-        table, th, td{
-            border: 1px solid black;
+        ul li:nth-of-type(1) a{
+            background-color:yellow;
+        }
+        
+        ul li:nth-of-type(2) a {
+            background-color: blue;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Laundry Wallah / Laundry Mart!</h1>
-    <p>Welcome to Laundry Wallah, your go-to online laundry service designed to make your life easier and more convenient. At Laundry Wallah, we understand the demands of modern life and the importance of looking and feeling your best. That's why we offer a comprehensive range of laundry services that cater to all your needs, from everyday wear to delicate fabrics.</p>
-    <img src="./assets/Laundry_image.jpg" width="500" height="500">
-    <h2>Our Service</h2>
+    <h2 class="head">This is h1 heading with head as a class</h2>
+    <h1 class="head" id="bglime">This is a h2 heading with <span class="textred">"head"</span> as a class and "bglime as an id"</h1>
+    <h4 class="head">This is a h4 heading with head as a class</h4>
+    <p>This is a p paragraph tag without any id or class stylee dusing "p" element selector</p>
+    <p id="para">This is a p paragraph tag with para as an id</p>
+    <p>This is a p <span class="textformat">paragraph</span> tag without any id or class styled using "p" element selector</p>
+    <h3>Show this output without inline CSS nor using class or id for "a" tag.</h3>
     <ul>
-        <li>Washing and Drying</li>
-        <li>Ironing and Folding</li>
-        <li> Dry Cleaning</li>
-        <li>Stain Removal</li>
-        <li>Express Services</li>
-        <li>Special Garment Care</li>
+        <li>Click <a target="_blank" href="http://www.upskillmafia.com/">here</a> to go to UpskillMafia</li>
+        <li>Click <a target="_blank" href="https://www.google.com/">here</a> to go to Google</li>
     </ul>
-    <h2>Price List</h2>
-    
-    <table>
-        <tr>
-            <th>Services</th>
-            <th>Cost</th>
-        </tr>
-        <tr>
-            <td>Washing and Drying</td>
-            <td>₹ 500 </td>
-        </tr>
-        <tr>
-            <td>Ironing and Folding</td>
-            <td>₹ 600 </td>
-        </tr>
-        <tr>
-            <td>Dry Cleaning</td>
-            <td>₹ 700 </td>
-        </tr>
-        <tr>
-            <td>Stain Removal</td>
-            <td>₹ 800 </td>
-        </tr>
-        <tr>
-            <td>Express Services</td>
-            <td>₹ 900 </td>
-        </tr>
-        <tr>
-            <td>Special Garment Care</td>
-            <td>₹ 1000 </td>
-        </tr>
-    </table>
-    <h2>Book Now</h2>
-    <form>
-        <label>Name :</label>
-        <input type="text" name="Name" placeholder="Enter your name">
-        <label>Email :</label>
-        <input type="email" name="mail" placeholder="Enter your mailid">
-        <label>Phone :</label>
-        <input type="tel" name="mobilenumber" placeholder="Enter your Phone number" maxlength="10" >
-        <button>Submit</button>
-    </form>
-    <a href="mailto:info@laundrymart.com">Contact Us</a>
+    <ol>
+        <li>This is li tag without any id or class</li>
+        <li style="color: blue;">This is li tag without any id or class and is in blue colour</li>
+        <li style="color: red;">This is li tag without any id or class and is in red colour</li>
+        <li>This is li tag without any id or class</li>
+        <li>This is li tag without any id or class</li>
+    </ol>
 </body>
 </html>

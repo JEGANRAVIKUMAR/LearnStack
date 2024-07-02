@@ -1,0 +1,39 @@
+body{
+    background-color: coral;
+}
+
+a{
+    background-color: yellow;
+}
+div{
+    background-color: blue;
+}
+
+.head{
+    color: darkblue;
+}
+
+#bglime{
+    background-color: lime;
+}
+
+.textred{
+    color: red;
+}
+
+#para{
+    color: green;
+}
+
+p{
+    color: white;
+}
+
+.textformat{
+    color: black;
+    font-size: x-large;
+}
+
+ul{
+    color: white;
+}
