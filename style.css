@@ -1,39 +1,19 @@
-body{
-    background-color: coral;
+body {
+    position: fixed;
+    width: 100%;
 }
 
-a{
-    background-color: yellow;
-}
-div{
-    background-color: blue;
+.box{
+    display: grid;
+    margin: 10% 25%;
 }
 
-.head{
-    color: darkblue;
-}
-
-#bglime{
-    background-color: lime;
-}
-
-.textred{
-    color: red;
-}
-
-#para{
-    color: green;
-}
-
-p{
+.box button{
+    
+    display: grid;
+    width: 800px;
+    background-image: linear-gradient(to right,orange,green);
     color: white;
-}
-
-.textformat{
-    color: black;
-    font-size: x-large;
-}
-
-ul{
-    color: white;
+    border: none;
+    font-size: xx-large;
 }
